@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plan Stratégique - wyrm.studio</title>
+    <title>Plan Stratégique - The Gate Consulting | wyrm.studio</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         * {
@@ -141,7 +141,7 @@
             font-size: clamp(2.5rem, 6vw, 4.5rem);
             font-weight: 800;
             line-height: 1.1;
-            margin-bottom: 25px;
+            margin-bottom: 15px;
             background: linear-gradient(135deg, var(--light) 0%, var(--gold-light) 50%, var(--gold) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -149,6 +149,16 @@
             animation: fadeInUp 1s ease forwards;
             opacity: 0;
             animation-delay: 0.2s;
+        }
+
+        .hero-client {
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-weight: 600;
+            color: var(--gold);
+            margin-bottom: 25px;
+            animation: fadeInUp 1s ease forwards;
+            opacity: 0;
+            animation-delay: 0.3s;
         }
 
         .hero p {
@@ -383,6 +393,28 @@
             color: var(--gray);
             font-size: 0.9rem;
             line-height: 1.6;
+        }
+
+        /* Brand Identity List */
+        .brand-identity-list {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .brand-identity-list li {
+            padding: 8px 0;
+            color: var(--gray-light);
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .brand-identity-list li::before {
+            content: '•';
+            color: var(--gold);
+            font-weight: 700;
+            font-size: 1.2rem;
         }
 
         /* Timeline */
@@ -711,6 +743,7 @@
         <div class="container hero-content">
             <span class="hero-label">Plan Stratégique</span>
             <h1>Identité de Marque & Stratégie de Contenu</h1>
+            <div class="hero-client">The Gate Consulting</div>
             <p>Une feuille de route claire pour transformer votre agence de voyage en une marque mémorable et performante</p>
             <div class="hero-scroll">
                 <svg viewBox="0 0 24 24">
@@ -770,28 +803,35 @@
                     <div class="deliverable-icon">🎨</div>
                     <div>
                         <h4>Identité de Marque Complète</h4>
-                        <p>Logo principal + variantes, palette de couleurs, typographie, guide d'utilisation de la marque</p>
+                        <ul class="brand-identity-list">
+                            <li>Logo principal + variantes (horizontal, vertical, icône)</li>
+                            <li>Typographie & hiérarchie des polices</li>
+                            <li>Palette de couleurs (RGB, CMYK, HEX)</li>
+                            <li>Direction artistique & principes visuels</li>
+                            <li>Guide d'utilisation de la marque (PDF)</li>
+                            <li>Fichiers sources (AI, EPS, SVG, PNG)</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="deliverable-item">
                     <div class="deliverable-icon">📱</div>
                     <div>
                         <h4>2 Designs Réseaux Sociaux</h4>
-                        <p>Templates Instagram/Facebook prêts à l'emploi, optimisés pour l'engagement et la conversion</p>
+                        <p>Templates Instagram/Facebook prêts à l'emploi, optimisés pour l'engagement et la conversion, alignés avec la nouvelle identité visuelle</p>
                     </div>
                 </div>
                 <div class="deliverable-item">
                     <div class="deliverable-icon">🎬</div>
                     <div>
-                        <h4>2 Reels / Vidéos Courtes</h4>
-                        <p>Contenu motion design pour Instagram Reels / TikTok, optimisé pour la viralité et le partage</p>
+                        <h4>1 Reel / Vidéo Motion</h4>
+                        <p>Contenu motion design pour Instagram Reels / TikTok (15-30 sec), optimisé pour la viralité et le partage</p>
                     </div>
                 </div>
                 <div class="deliverable-item">
                     <div class="deliverable-icon">📋</div>
                     <div>
                         <h4>Stratégie de Contenu</h4>
-                        <p>Recommandations détaillées pour attirer et convertir vos clients via les réseaux sociaux</p>
+                        <p>Recommandations détaillées pour attirer et convertir vos clients via les réseaux sociaux, calendrier de publication suggéré</p>
                     </div>
                 </div>
                 <div class="deliverable-item">
@@ -843,7 +883,7 @@
                         <div class="timeline-dot"></div>
                         <span class="timeline-day">Jour 5-6</span>
                         <h4>Contenu Social</h4>
-                        <p>Création des 2 designs statiques et des 2 reels motion design pour vos réseaux sociaux</p>
+                        <p>Création des 2 designs statiques et du 1 reel motion design pour vos réseaux sociaux</p>
                     </div>
                 </div>
                 <div class="timeline-item">
@@ -873,10 +913,12 @@
                     <div class="investment-price">50 TND</div>
                     <ul class="investment-features">
                         <li>Logo complet + variantes (horizontal, vertical, icône)</li>
-                        <li>Palette de couleurs & typographie</li>
+                        <li>Typographie & hiérarchie des polices</li>
+                        <li>Palette de couleurs (RGB, CMYK, HEX)</li>
+                        <li>Direction artistique & principes visuels</li>
                         <li>Guide d'utilisation de la marque (PDF)</li>
                         <li>2 designs réseaux sociaux (Instagram/Facebook)</li>
-                        <li>2 reels / vidéos motion design (15-30 sec)</li>
+                        <li>1 reel / vidéo motion design (15-30 sec)</li>
                         <li>Stratégie de contenu pour les réseaux sociaux</li>
                         <li>Fichiers sources complets (AI, EPS, PNG, MP4)</li>
                         <li>2 tours de révision inclus</li>
